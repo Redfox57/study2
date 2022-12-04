@@ -1,15 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Введите первое число:");
-string a =  Console.ReadLine(); 
-Console.WriteLine("Введите второе число:");
-string b =  Console.ReadLine(); 
-int numberOne = Convert.ToInt32(a);
-int numberTwo = Convert.ToInt32(b);
+﻿Console.Write("Enter the first number: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write("Enter the second number: ");
+int b = Convert.ToInt32(Console.ReadLine());
 
-if (numberOne == numberTwo * numberTwo)
+if (a > b)
 {
-    
+    Console.WriteLine($"Max number is: {a}");
 }
-int result = number * number;
-
-Console.WriteLine($"Квадрат числа {number} равен = {result}");
+else if (a < b)
+{
+    Console.WriteLine($"Max number is: {b}");
+} 
+else 
+{
+    Console.WriteLine("Numbers are equal");
+}

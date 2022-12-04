@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\study2\\lab_2\\lab_2.csproj",
-      "projectName": "lab_2",
-      "projectPath": "D:\\study2\\lab_2\\lab_2.csproj",
+      "projectUniqueName": "D:\\study2\\lab_3\\lab_3.csproj",
+      "projectName": "lab_3",
+      "projectPath": "D:\\study2\\lab_3\\lab_3.csproj",
       "packagesPath": "C:\\Users\\RedFox\\.nuget\\packages\\",
-      "outputPath": "D:\\study2\\lab_2\\obj\\",
+      "outputPath": "D:\\study2\\lab_3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\RedFox\\AppData\\Roaming\\NuGet\\NuGet.Config"
